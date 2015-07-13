@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<drinks xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="drinks.xsd">
+	<drink type="alcohol">Margarita</drink>
+	<!-- complex mixed type because of the text value -->
+	<drink type="energy">Red Bull</drink>
+	<drink type="soft">Dr. Pepper</drink>
+</drinks>

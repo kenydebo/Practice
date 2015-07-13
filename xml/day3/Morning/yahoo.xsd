@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:vc="http://www.w3.org/2007/XMLSchema-versioning" elementFormDefault="qualified" attributeFormDefault="unqualified" vc:minVersion="1.1">
+	<xs:element name="yahooHomePage" type="yahooHomePageType"/>
+	<xs:complexType name="yahooHomePageType">
+		<xs:sequence>
+			<xs:element name="searchCategories" type="searchCategoriesType" minOccurs="1" maxOccurs="1"/>
+		</xs:sequence>
+	</xs:complexType>
+	<xs:complexType name="searchCategoriesType">
+		<xs:sequence>
+			<xs:element name="category" type="categoryType" minOccurs="7" maxOccurs="unbounded"/>
+		</xs:sequence>
+	</xs:complexType>
+	
+	<xs:complexType name="categoryType">
+		<xs:sequence>
+			<xs:element name="name" type="xs:string" maxOccurs="unbounded" minOccurs="1"/>
+			<xs:element name="url" type="xs:string" maxOccurs="unbounded" minOccurs="1"/>
+			<xs:element name="title" type="xs:string" maxOccurs="unbounded" minOccurs="1"/>
+		</xs:sequence>
+		<xs:attribute name="sequence" type="xs:positiveInteger" use="required"/>
+	</xs:complexType>
+</xs:schema>

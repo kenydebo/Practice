@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<books>
+	<book isbnNumber="123 123123">
+		<title>The Three Muskateers</title>
+		<author>Alexandre Dumas</author>
+	</book>
+	<book isbnNumber="456  45642423">
+		<title>Return of the King</title>
+		<author>J.R.R. Tolkien</author>
+	</book>
+	<book isbnNumber="375 362466">
+		<title>The Two Towers</title>
+		<author>J.R.R. Tolkien</author>
+	</book>
+	<book isbnNumber="928 2383853">
+		<title>The Fellowship of the Ring</title>
+		<author>J.R.R. Tolkien</author>
+	</book>
+	<book isbnNumber="9283 28382275">
+		<title>Prince Caspian</title>
+		<author>C S Lewis</author>
+	</book>
+	<book isbnNumber="928 2829821">
+		<title>A Wrinkle in Time</title>
+		<author>Madeline L'Engle</author>
+	</book>
+	<book isbnNumber="1938 292873">
+		<title>Release it</title>
+		<author>Michael Nygaard</author>
+	</book>
+	<book isbnNumber="7283 298376">
+		<title>XML for the World Wide Web</title>
+		<author>Elizabeth Castro</author>
+	</book>
+	<book isbnNumber="662839 2938">
+		<title>The Drop</title>
+		<author>Michael Connely</author>
+	</book>
+	<book isbnNumber="828 2938874">
+		<title>The Eagle has Landed</title>
+		<author>Jack Higgins</author>
+	</book>
+	<book isbnNumber="283 20191824">
+		<title>Jurasic Park</title>
+		<author>Crichton</author>
+	</book>
+</books>

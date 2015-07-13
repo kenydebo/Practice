@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:vc="http://www.w3.org/2007/XMLSchema-versioning" elementFormDefault="qualified" attributeFormDefault="unqualified" vc:minVersion="1.1">
+	<xs:element name="library">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element name="periodicals">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="magazine" type="xs:string" maxOccurs="unbounded"/>
+						</xs:sequence>
+						<xs:attribute name="year" type="xs:positiveInteger" use="required"/>	<!-- Attributes always comes after sequences if u dont have (use= required the parser assumes it's optional -->
+					</xs:complexType>
+				</xs:element>
+				<xs:element name="books">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="book" type="xs:string" maxOccurs="unbounded"/>
+						</xs:sequence>
+						<xs:attribute name="author" type="xs:string" use="required"/>
+					</xs:complexType>
+				</xs:element>
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+</xs:schema>

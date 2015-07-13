@@ -1,0 +1,4 @@
+<?xml version="1.0" >
+<forest>
+<plants><tree name=pine><height>23<unitOfMeasure>meter</unitOfMeasure></tree><tree name='fir'><height>33<height><unitOfMEasure>yard</UnitOfMeasure></Tree></plant>
+<animals><bear name=black bear><weight>225</weight><unitOfMeasure>kilogram<unitOfMeasure><bear name=grizzly><weight>410</wieght><unitOfMeasure>kilogram<unitOfMeasure></animals>

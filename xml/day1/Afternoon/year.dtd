@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- <!ELEMENT year (season+, month+)> means child element season must appear at least once or more times -->
+<!ELEMENT year (season, season, season, season+, month+)><!-- Validates for 4 seasons or more // remove the + on the last season to make it 4 alone -->
+<!ELEMENT season (#PCDATA)>
+<!ELEMENT month (#PCDATA)>

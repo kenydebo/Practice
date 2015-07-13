@@ -1,0 +1,19 @@
+<?xml version="1.1" encoding="UTF-8"?>
+<city name='Calgary'>
+	<quadrant>Northwest
+		<community>Arbour Lake</community>
+		<community>Citadel</community>
+	</quadrant>
+	<quadrant>Northeast
+		<community>Saddleridge</community>
+		<community>Dover</community>
+	</quadrant>
+	<quadrant>SouthEast
+		<community>ForestLawn</community>
+		<community>McKenzie</community>
+	</quadrant>
+	<quadrant>Southwest
+		<community>Marda Loop</community>
+		<community>West Hills</community>
+	</quadrant>
+</city>

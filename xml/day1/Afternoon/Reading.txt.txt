@@ -1,0 +1,38 @@
+http://www.w3schools.com/dtd/default.asp
+http://www.w3schools.com/dtd/dtd_intro.asp
+http://www.w3schools.com/dtd/dtd_building.asp
+http://www.w3schools.com/dtd/dtd_elements.asp
+http://www.w3schools.com/dtd/dtd_attributes.asp
+http://www.w3schools.com/dtd/dtd_el_vs_attr.asp
+http://www.w3schools.com/dtd/dtd_entities.asp
+http://www.w3schools.com/dtd/dtd_validation.asp
+http://www.w3schools.com/dtd/dtd_examples.asp
+http://www.w3schools.com/dtd/dtd_summary.asp
+
+
+XSD's
+http://www.w3schools.com/schema/default.asp
+http://www.w3schools.com/schema/schema_intro.asp
+http://www.w3schools.com/schema/schema_why.asp
+http://www.w3schools.com/schema/schema_howto.asp
+http://www.w3schools.com/schema/schema_schema.asp
+
+XSD Data Types
+http://www.w3schools.com/schema/schema_dtypes_string.asp
+http://www.w3schools.com/schema/schema_dtypes_date.asp
+http://www.w3schools.com/schema/schema_dtypes_numeric.asp
+http://www.w3schools.com/schema/schema_dtypes_misc.asp
+
+XSD Simple Types
+http://www.w3schools.com/schema/schema_simple.asp
+http://www.w3schools.com/schema/schema_simple_attributes.asp
+http://www.w3schools.com/schema/schema_facets.asp
+
+XSD Complex Types
+http://www.w3schools.com/schema/schema_complex.asp
+http://www.w3schools.com/schema/schema_complex_empty.asp
+http://www.w3schools.com/schema/schema_complex_elements.asp
+http://www.w3schools.com/schema/schema_complex_text.asp
+http://www.w3schools.com/schema/schema_complex_mixed.asp
+http://www.w3schools.com/schema/schema_example.asp
+

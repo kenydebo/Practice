@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE year SYSTEM "year.dtd">
+<year>
+	<season>spring</season>
+	<season>summer</season>
+	<season>fall</season>
+	<season>winter</season>
+	<month>May</month>
+	<month>May</month>
+</year>

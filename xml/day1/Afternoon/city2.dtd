@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!ELEMENT city (quadrant+)>
+	<!ATTLIST city name CDATA #REQUIRED>	<!-- CDATA meaning that data is required -->
+	
+<!ELEMENT quadrant (community+)>
+	<!ATTLIST quadrant name (NW|NE|SE|SW) #REQUIRED
+								 size CDATA #IMPLIED>
+
+<!ELEMENT community (#PCDATA)>
+

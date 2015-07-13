@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:vc="http://www.w3.org/2007/XMLSchema-versioning" elementFormDefault="qualified" attributeFormDefault="unqualified" vc:minVersion="1.1">
+		<xs:annotation>
+			<xs:documentation>An annotation is a special kind of comment that CAN be parsed by the parser.</xs:documentation>
+			<!-- This kind of comment (html comment) can NOT be seen by the parser -->
+		</xs:annotation>
+
+	<xs:element name="library" type="complexLibraryType"/><!--Global -->
+	
+	<xs:complexType name="complexLibraryType">
+		<xs:sequence>
+			<xs:element name="periodicals" type="complexPeriodType"/>
+			<xs:element name="books" type="complexBooksType"/>
+		</xs:sequence>
+	</xs:complexType>
+	
+	<xs:complexType name="complexPeriodType">
+		<xs:sequence>
+			<xs:element name="magazine" type="xs:string" maxOccurs="unbounded"/>
+		</xs:sequence>
+		<xs:attribute name="year" type="xs:positiveInteger" use="required"/>
+	</xs:complexType>
+	
+	<xs:complexType name="complexBooksType">
+		<xs:sequence>
+			<xs:element name="book" type="xs:string" maxOccurs="unbounded"/>
+		</xs:sequence>
+		<xs:attribute name="author" type="xs:string" use="required"/>
+	</xs:complexType>
+</xs:schema>

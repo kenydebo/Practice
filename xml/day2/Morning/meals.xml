@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<food xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="meals.xsd">
+	<meal type="breakfast" time="09:00:00">
+		<dish>waffles</dish>
+		<dish>COLD pizza</dish>
+		<dish>cereal</dish>
+		<dish>pancakes</dish>
+	</meal>
+	<meal type="elevensies">
+		<dish>fruit</dish>
+		<dish>mushrooms</dish>
+		<dish>beer</dish>
+	</meal>
+</food>

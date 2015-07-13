@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!ELEMENT request-mappings (url-mapping+)>
+<!ELEMENT url-mapping (request-handler+)>
+	<!ATTLIST url-mapping url CDATA #REQUIRED
+										currentpage CDATA #REQUIRED>
+<!ELEMENT request-handler (command-mapping+)>
+	<!ATTLIST request-handler class CDATA #REQUIRED>
+<!ELEMENT command-mapping (#PCDATA)>
+	<!ATTLIST command-mapping command CDATA #REQUIRED
+												targetpage CDATA #REQUIRED>				

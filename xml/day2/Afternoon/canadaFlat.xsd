@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:vc="http://www.w3.org/2007/XMLSchema-versioning" elementFormDefault="qualified" attributeFormDefault="unqualified" vc:minVersion="1.1">
+		<xs:annotation>
+			<xs:documentation>here's my annotation</xs:documentation>
+		</xs:annotation>
+		<!-- here's my comment -->
+	<xs:element name="canada" type="canadaType" />
+	
+	<xs:complexType name="canadaType">
+		<xs:sequence>
+			<xs:element name="capital" type="capitalType"/>
+			<xs:element name="provinces" type="provsType"/>
+			<xs:element name="territories" type="terrsType"/>
+		</xs:sequence>
+	</xs:complexType>
+	
+	<xs:complexType name="capitalType">
+		<xs:attribute name="name" type="xs:string"  use="required"/>
+	</xs:complexType>
+	
+	<xs:complexType name="provsType">
+		<xs:sequence>
+			<xs:element name="province" type="jurisdictionType" maxOccurs="10"/>
+		</xs:sequence>	
+	</xs:complexType>
+	
+	<xs:complexType name="terrsType">
+		<xs:sequence>
+			<xs:element name="territory" type="jurisdictionType" maxOccurs="3"/>
+		</xs:sequence>	
+	</xs:complexType>
+	
+	<xs:complexType name="jurisdictionType">
+		<xs:sequence>
+			<xs:element name="capitalCity" type="xs:string"/>
+			<xs:element name="language" type="langType"/>
+			<xs:element name="population" type="xs:positiveInteger"/>
+		</xs:sequence>
+		<xs:attribute name="name" type="xs:string" use="required"/>
+	</xs:complexType>
+	
+	<xs:simpleType name="langType">
+		<xs:restriction base="xs:string">
+			<xs:enumeration value="English"/>
+			<xs:enumeration value="French"/>
+		</xs:restriction>
+	</xs:simpleType>
+</xs:schema>

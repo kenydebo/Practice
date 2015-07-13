@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- we want to know simple or complex type code -->
+<!-- simple contains only text -->
+<!-- contains elements and attributes -->
+<canada>													<!-- complex because it has a child element -->
+	<capital name="Ottawa"/>						<!-- complex because it has attribute -->
+	<provinces>											<!-- complex because it has child elements -->
+		<province name="Alberta">				<!-- complex because it has attribute -->
+			<capitalCity>Edmonton</capitalCity><!-- simple because it has only text -->
+			<language>English</language>		<!-- simple because it contains only text -->
+			<population>3183000</population>
+		</province>
+		<province name="British Columbia">
+			<capitalCity>Victoria</capitalCity>
+			<language>English</language>
+			<population>4168000</population>
+		</province>
+		<province name="Saskatchewan">
+			<capitalCity>Regina</capitalCity>
+			<language>English</language>
+			<population>996000</population>
+		</province>
+		<province name="Manitoba">
+			<capitalCity>Winnipeg</capitalCity>
+			<language>English</language>
+			<population>1163000</population>
+		</province>
+		<province name="Ontario">
+			<capitalCity>Toronto</capitalCity>
+			<language>English</language>
+			<population>12439000</population>
+		</province>
+		<province name="Quebec">
+			<capitalCity>Quebec City</capitalCity>
+			<language>French</language>
+			<population>7560000</population>
+		</province>
+		<province name="New Brunswick">
+			<capitalCity>Fredericton</capitalCity>
+			<language>English</language>
+			<population>757000</population>
+		</province>
+		<province name="Nova Scotia">
+			<capitalCity>Halifax</capitalCity>
+			<language>English</language>
+			<population>938000</population>
+		</province>
+		<province name="Prince Edward Island">
+			<capitalCity>Charlottetown</capitalCity>
+			<language>English</language>
+			<population>138000</population>
+		</province>
+		<province name="Newfoundland and Labrador">
+			<capitalCity>St. John's</capitalCity>
+			<language>English</language>
+			<population>533000</population>
+		</province>
+	</provinces>
+	<territories>
+		<territory name="Yukon">
+			<capitalCity>Whitehorse</capitalCity>
+			<language>English</language>
+			<population>30000</population>
+		</territory>
+		<territory name="Northwest Territory">
+			<capitalCity>Yellowknife</capitalCity>
+			<language>English</language>
+			<population>41000</population>
+		</territory>
+		<territory name="Nunavut">
+			<capitalCity>Iqaluit</capitalCity>
+			<language>English</language>
+			<population>29000</population>
+		</territory>
+	</territories>
+</canada>

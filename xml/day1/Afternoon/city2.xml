@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE city SYSTEM "city2.dtd">
+<city name="Calgary">
+	<quadrant name="NW">
+		<community>Arbour Lake</community>
+	</quadrant>
+	<quadrant name="NE" size="1234">
+		<community>Saddle Ridge</community>
+	</quadrant>
+	<quadrant name="SW">
+		<community>Mardaloop</community>
+	</quadrant>
+	<quadrant name="SE">
+		<community>McKenzie Town</community>
+	</quadrant>
+</city>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!ELEMENT telephoneBill (customer, call*)> <!--we can have zero or more calls, but we have to have just one customer -->
+
+<!ELEMENT customer (name, address, city, province)> <!-- we can have one and only one name, address, city and province -->
+<!ATTLIST customer phoneNumber CDATA  #REQUIRED>
+
+<!ELEMENT name (#PCDATA) >
+<!ELEMENT address (#PCDATA)>
+<!ELEMENT city (#PCDATA)>
+<!ELEMENT province (#PCDATA)>
+<!ELEMENT call EMPTY>
+	<!ATTLIST call
+					number CDATA  #REQUIRED   
+					date CDATA  #REQUIRED
+					durationInMinutes CDATA  #REQUIRED
+					charge CDATA  #IMPLIED
+> <!-- charge is optional while the rest are required -->

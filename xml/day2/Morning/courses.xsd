@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:vc="http://www.w3.org/2007/XMLSchema-versioning" elementFormDefault="qualified" attributeFormDefault="unqualified" vc:minVersion="1.1">
+	<xs:element name="sait">
+	<xs:complexType>
+		<xs:sequence>
+			<xs:element name="courses" >
+				<xs:complexType>
+					<xs:sequence>
+						<xs:element name="course" maxOccurs="3"> <!-- By default if you do not put the maximum/ minimum time it is allowed ot occure it assumes the default of one... So here because course occurs three times we use the maximum occurs to 3  we could have used "unbounded" if we do not want it to have a limit-->
+							<xs:complexType>
+								<xs:sequence>
+									<xs:element name="code" type="xs:string"></xs:element>
+									<xs:element name="name" type="xs:string"></xs:element>
+									<xs:element name="instructor" type="xs:string"></xs:element>
+								</xs:sequence>
+							</xs:complexType>
+						</xs:element>
+					</xs:sequence>
+				</xs:complexType>
+			</xs:element>
+		</xs:sequence>
+	</xs:complexType>
+	</xs:element>
+</xs:schema>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hockey SYSTEM "hockey.dtd">
+<hockey>
+	<team>Edmonton Oilers</team>
+	<team>Los Angeles Kings</team>
+	<arena>Bell Center</arena>
+</hockey>

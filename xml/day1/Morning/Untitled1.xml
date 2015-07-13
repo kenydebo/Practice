@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- comments are the same as html -->
+<school school-type='technical institute'>SAIT</school>
+<!-- element/tag - school 
+	 attribute school-type
+	 value of 'technical institute'
+	 value -- SAIT-->
+	 
+	 <!-- what does properly nested mean?
+		 icant do this....-->
+		 
+		 <school>SAIT
+			 <Class>123
+			 </Class>
+			 </school>

@@ -1,0 +1,32 @@
+<?xml version="1.0"?>
+<purchaseOrder orderDate="1999-10-20" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="po.xsd">
+	<shipTo country="Canada">
+		<name>Alice Smith</name>
+		<street>123 Maple Street</street>
+		<city>Mill Valley</city>
+		<province>AB</province>
+		<zip>T3G 5A2</zip>
+	</shipTo>
+	<billTo country="Canada">
+		<name>Robert Smith</name>
+		<street>8 Oak Avenue</street>
+		<city>Old Town</city>
+		<province>BC</province>
+		<zip>V2C 1W5</zip>
+	</billTo>
+	<comment>Hurry, my lawn is going wild</comment>
+	<items>
+		<item partNum="872-AA">
+			<productName>Lawnmower</productName>
+			<quantity>1</quantity>
+			<CanadaPrice>148.95</CanadaPrice>
+			<comment>Confirm this is electric</comment>
+		</item>
+		<item partNum="926-AA">
+			<productName>Baby Monitor</productName>
+			<quantity>1</quantity>
+			<CanadaPrice>39.98</CanadaPrice>
+			<shipDate>1999-05-21</shipDate>
+		</item>
+	</items>
+</purchaseOrder>

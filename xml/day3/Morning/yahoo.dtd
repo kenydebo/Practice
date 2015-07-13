@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!ELEMENT yahooHomePage (searchCategories)>
+<!ELEMENT searchCategories (category+)>
+
+<!ELEMENT category (name, url, title)>
+	<!ATTLIST category sequence CDATA #REQUIRED>
+
+	
+<!ELEMENT name (#PCDATA)>
+<!ELEMENT url (#PCDATA)>
+<!ELEMENT title (#PCDATA)>

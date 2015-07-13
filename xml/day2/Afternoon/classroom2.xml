@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classroom xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="classroom.xsd">
+	<room number="999" type="IT">
+		<projector>Samsung</projector>
+	</room>
+	<room number="300" type="Office">
+	</room>
+</classroom>

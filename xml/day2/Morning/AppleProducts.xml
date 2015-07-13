@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<appleProducts xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="appleproducts.xsd">
+	<computers>
+		<name>iMac</name>
+		<name>Mac Book Pro</name>
+		<name>Mac Book Air</name>
+	</computers>
+	<phones>
+		<name>iPhone5s</name>
+		<name>iPhone5</name>
+	</phones>
+	<tablets>
+		<type>iPad Air</type>
+		<type>Old iPad</type>
+	</tablets>
+</appleProducts>

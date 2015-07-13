@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<library xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="library.xsd">
+	<periodicals year="2014">
+		<magazine>Time</magazine>
+		<magazine>Newsweek</magazine>
+	</periodicals>
+	<books author="Dan Brown">
+		<book>Angels and Demons</book>
+		<book>Davinci Code</book>
+	</books>
+</library>

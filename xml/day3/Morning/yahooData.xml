@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE yahooHomePage SYSTEM "yahoo.dtd">
+<yahooHomePage>
+	<searchCategories>
+		<category sequence="1">
+			<name>Web</name>
+			<url>http://search.yahoo.com/search</url>
+			<title>Search the web</title>
+		</category>
+		<category sequence="2">
+			<name>Images</name>
+			<url>http://images.search.yahoo.com/search/images</url>
+			<title>Search images</title>
+		</category>
+		<category sequence="3">
+			<name>Video</name>
+			<url>http://video.search.yahoo.com/search/video</url>
+			<title>Search video</title>
+		</category>
+		<category sequence="4">
+			<name>Directory</name>
+			<url>http://search.yahoo.com/search/dir</url>
+			<title>Search directory</title>
+		</category>
+		<category sequence="5">
+			<name>Local</name>
+			<url>http://local.yahoo.com/results</url>
+			<title>Search local</title>
+		</category>
+		<category sequence="6">
+			<name>News</name>
+			<url>http://news.search.yahoo.com/search/news</url>
+			<title>Search news</title>
+		</category>
+		<category sequence="7">
+			<name>Products</name>
+			<url>http://search.shopping.yahoo.com/search</url>
+			<title>Search products</title>
+		</category>
+	</searchCategories>
+</yahooHomePage>

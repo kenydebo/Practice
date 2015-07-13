@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<sait xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="courses.xsd">
+	<courses>
+		<course>
+			<code>CMPP 247</code>
+			<name>Intro to XML</name>
+			<instructor>Joe Smith</instructor>
+		</course>
+		<course>
+			<code>LLAW 220</code>
+			<name>Litigation Law I</name>
+			<instructor>Howard Martin</instructor>
+		</course>
+		<course>
+			<code>OADM-300</code>
+			<name>Project Management I</name>
+			<instructor>Jennifer Keaton</instructor>
+		</course>
+	</courses>
+</sait>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:vc="http://www.w3.org/2007/XMLSchema-versioning" elementFormDefault="qualified" attributeFormDefault="unqualified" vc:minVersion="1.1">
+	<xs:element name="election">
+		<xs:complexType>
+			<xs:sequence>
+			
+				<xs:element name="party" maxOccurs="unbounded">
+					<xs:complexType mixed="true"> <!-- mixed because party element has a text and child element 
+the problem with this is we are not validating type for the value -->
+						<xs:sequence>
+							<xs:element name="leader" type="xs:string"/>
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+				
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+</xs:schema>

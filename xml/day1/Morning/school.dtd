@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!ELEMENT school (#PCDATA)><!-- PCDATA stands for Parsed CHaracter Data and its basically saying the value of this this element will be a string (alpha-numeric character set) -->

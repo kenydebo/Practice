@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<weatherForecast>
+	<percipitation>
+		<rain>0</rain>
+		<snow>15cm</snow>
+		<hail>0</hail>
+	</percipitation>
+	<sunshine>
+		<hours>5.5</hours>
+	</sunshine>
+	<wind>
+		<direction>SW
+		</direction>
+	</wind>
+	<temperature>
+		<high>15C</high>
+		<low>-1C</low>
+	</temperature>
+</weatherForecast>

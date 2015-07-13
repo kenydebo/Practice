@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!ELEMENT hockey (team+, arena?)><!-- hockey doesnt have a text value, it has child elements -->
+<!ELEMENT team (#PCDATA)>
+<!ELEMENT arena (#PCDATA)>

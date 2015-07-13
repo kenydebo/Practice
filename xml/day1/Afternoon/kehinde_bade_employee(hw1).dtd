@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?> <!-- Bade-Adebowale Kehinde -->
+<!ELEMENT employees (employee+)> <!-- Employee can contain as many employees as possible -->
+<!ELEMENT employee (expertise, consultedClient+)> 
+<!-- Employee contains the expertise and the consultedClient element, expertise is just one while ConsultedClients is more than one -->
+	<!ATTLIST employee name CDATA #REQUIRED
+									birthdate CDATA #IMPLIED
+									sinNumber CDATA #REQUIRED
+									sex (male|female) #REQUIRED>
+									
+<!ELEMENT expertise (#PCDATA)>
+
+<!ELEMENT consultedClient (#PCDATA)>
+	<!ATTLIST consultedClient name CDATA #REQUIRED
+											position (manager|teamLead|programmer|analyst) #REQUIRED
+											durationInMonths CDATA #IMPLIED>

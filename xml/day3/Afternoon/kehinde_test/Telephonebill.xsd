@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:vc="http://www.w3.org/2007/XMLSchema-versioning" elementFormDefault="qualified" attributeFormDefault="unqualified" vc:minVersion="1.1">
+	<xs:element name="telephoneBill" type="telephoneBillType"/> <!-- The root element is telephoneBill -->
+	<xs:complexType name="telephoneBillType">
+		<xs:sequence>
+			<xs:element name="customer" type="customerType" maxOccurs="1" minOccurs="1"/> <!-- we can have only one customer and nothing less or more -->
+			<xs:element name="call" type="callType" maxOccurs="unbounded" minOccurs="0"/> <!-- we may have calls or not -->
+		</xs:sequence>
+	</xs:complexType>
+	
+	<xs:complexType name="customerType">
+		<xs:sequence> 
+			<xs:element name="name" type="xs:string" minOccurs="1" maxOccurs="1"/>
+			<xs:element name="address" type="xs:string" minOccurs="1" maxOccurs="1"/>
+			<xs:element name="city" type="xs:string" minOccurs="1" maxOccurs="1"/>
+			<xs:element name="province" type="provType" minOccurs="1" maxOccurs="1"/>
+		</xs:sequence>
+		<xs:attribute name="phoneNumber" type="xs:string" use="required"/>
+	</xs:complexType>
+	<xs:simpleType name="provType">
+		<xs:restriction base="xs:string">
+			<xs:enumeration value="AB"/>
+			<xs:enumeration value="BC"/>
+		</xs:restriction>	
+	</xs:simpleType>
+	
+	<xs:complexType name="callType">
+		<xs:sequence>
+		</xs:sequence><!-- but if we have calls everything is cumpolsery except charge -->
+		<xs:attribute name="number" type="xs:string" use="required"/>
+		<xs:attribute name="date" type="xs:date" use="required"/>
+		<xs:attribute name="durationInMinutes" type="xs:positiveInteger" use="required"/>
+		<xs:attribute name="charge" type="xs:decimal" use="optional"/>
+	</xs:complexType>
+</xs:schema>

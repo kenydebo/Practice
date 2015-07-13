@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<food>
+	 <meal type='lunch'>shrimp</meal>
+	 <meal type='supper'>pizza</meal>
+	 <meal type='breakfast'>timbits</meal>
+</food>
